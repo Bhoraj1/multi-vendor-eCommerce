@@ -1,12 +1,13 @@
 import React from "react";
-import Managing_form from "../components/useState/Managing_form";
+import With_promise from "../components/useEffect/with_promise";
 
 export default function App() {
   return (
     <div>
       {/* <With_immutable_obj/> */}
       {/* <With_immutable_array /> */}
-      <Managing_form />
+      {/* <Managing_form /> */}
+      <With_promise />
     </div>
   );
 }
